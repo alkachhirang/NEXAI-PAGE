@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+@font-face {
+  font-family: neuropolitical;
+  src: url("../fonts/NeuropoliticalRg-Regular-400.ttf");
+}
+.ff-neuropolitical{
+    font-family:neuropolitical;
+}
+
+.mr_3 {
+  margin-right: 3px;
+}
+.gap-51 {
+  gap: 51px;
+}
+.button {
+  padding: 13px 32px !important;
+  background-color: #0066d1 !important;
+  box-shadow: 0px 4px 32px 0px #2746ed80 !important;
+  border: 2px solid #0066d1;
+  border-radius: 40px;
+}
+.nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  left: 0;
+  height: 3px;
+  background-color: #ffffff;
+  bottom: 0;
+}
+.nav-link:hover::after {
+  width: 100%;
+  transition: all 300ms linear;
+}
+@media (max-width: 576px) {
+  .flex-column-sm {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1200px) {
+  .small_screen {
+    position: fixed !important;
+    display: flex !important;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: -100%;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+    background-color: var(--blue);
+    transition: all.3s linear;
+  }
+  label[for="menu_box"] > span {
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+  input[type="checkbox"]:checked ~ ul.small_screen {
+    opacity: 1;
+    pointer-events: all;
+    left: 0%;
+    z-index: 1 !important;
+  }
+  label[for="menu_box"] > span {
+    width: 5px;
+    height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+  }
+  .position-fixed-lg {
+    position: fixed;
+  }
+  .z-index-2-lg {
+    z-index: 2;
+  }
+  .right-0-lg {
+    right: 0;
+  }
+  .w-100-lg {
+    width: 100%;
+  }
+}
