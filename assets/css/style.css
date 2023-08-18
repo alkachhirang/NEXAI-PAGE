@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,39 +7,142 @@
     text-decoration: none !important;
     list-style: none;
 }
-.max_w612{
+
+.max_w612 {
     max-width: 612px;
 }
 
-.ff_poppins{
-    font-family: 'poppins''sans-serif';
+.ff_poppins {
+    font-family: 'poppins' 'sans-serif';
 }
+
 @font-face {
-    font-family:Recharge;
+    font-family: Recharge;
     src: url("../fonts/recharge\ bd.ttf");
 }
-.ff_recharge{
-    font-family:'Recharge';
+
+.ff_recharge {
+    font-family: 'Recharge';
 }
+
 @font-face {
     font-family: neuropolitical;
     src: url("../fonts/NeuropoliticalRg-Regular-400.ttf");
 }
+
 .ff-neuropolitical {
     font-family: 'neuropolitical';
 }
-.learn-more_button{
+
+.learn-more_button {
     background-color: #02cdcf;
     padding: 18px 32px;
     border-radius: 12px;
 }
+.max_width_159{
+max-width:159px;
+}
+
+.footer-bg-img {
+    background-image: url("../images/png/bg-img.png");
+    background-position: top;
+    background-repeat: repeat-x;
+    background-color: var(--blue);
+}
+
+.line-height_25 {
+    line-height: 25.6px;
+}
+
+.mr_12 {
+    margin-right: 12px;
+}
+
+.mb_20 {
+    margin-bottom: 20px;
+}
+
+.pt_127 {
+    padding-top: 127px;
+}
+
+.line {
+    color: white;
+    opacity: 75;
+    /* width: 1140px; */
+    height: 2px;
+    top: 7205px;
+    left: 150px;
+    border-radius: 16px;
+}
+.mr_24{
+    margin-right: 24px;
+}
+.pt_90{
+    padding-top: 90px;
+}
+.pt_40{
+    padding-top: 40px;
+}
+.pb_150{
+    padding-bottom: 150px;
+}
+.pt_150{
+    padding-top: 150px;
+}
+.mb_96{
+    margin-bottom: 96px;
+}
+.mt_60{
+    margin-top: 60px;
+}
+.mt_108{
+    margin-top: 108px;
+}
+.right_0{
+    right: 0;
+}
+.top_100{
+    top: 100%;
+}
+.top_55{
+    top: -55%;
+}
+.top_30{
+    top: -30%;
+}
+
+.black_box {
+    display: flex;
+/* width: 340px !important;  */
+    height: 220px !important;
+    padding: 53px 43px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.02);
+    box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16) !important;
+}
 
 @media (min-width:992px) {
     .max_width_517 {
-            max-width: 517px;
+        max-width: 517px;
+    }
+
+    .max_width_505 {
+        max-width: 505px;
+    }
+
+    .max_width_356 {
+        max-width: 356px;
+    }
+        .max_width_792 {
+            max-width: 792px;
         }
-    
-        .max_width_505 {
-            max-width: 505px;
+        .max-width_997{
+          max-width: 997px;
+        }
+        .max-width_684{
+            max-width: 684px;
         }
 }
