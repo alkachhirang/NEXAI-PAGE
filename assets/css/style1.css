@@ -7,10 +7,10 @@
   list-style: none !important;
   /* outline: 1px solid red; */
 }
-body,
+/* body,
 html {
   overflow-x: hidden;
-}
+} */
 @font-face {
   font-family: neuropolitical;
   src: url("../fonts/NeuropoliticalRg-Regular-400.ttf");
