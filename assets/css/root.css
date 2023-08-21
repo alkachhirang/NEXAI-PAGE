@@ -61,7 +61,7 @@
             --fs-lg: 20px;
             --fs-xl: 24px;
             --fs-xxl:29px;
-            --fs-2xl: 60px;
+            --fs-2xl:45px;
         }
 }
 @media (max-width:576px) {
@@ -72,6 +72,6 @@
             --fs-lg: 20px;
             --fs-xl: 15px;
             --fs-xxl:17px;
-            --fs-2xl: 60px;
+            --fs-2xl: 35px;
         }
 }
