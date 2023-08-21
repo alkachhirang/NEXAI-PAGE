@@ -105,6 +105,9 @@ max-width:159px;
     top: 67%
     ;
 }
+.mb_50{
+    margin-bottom:70px;
+}
 body,
 html {
     overflow-x: hidden;
