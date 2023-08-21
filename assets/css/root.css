@@ -42,4 +42,36 @@
 .fw_700{
     font-weight:700;
 }
-
+@media (max-width:992px) {
+    :root {
+            /* font-size */
+            --fs-sm: 16px;
+            --fs-md: 18px;
+            --fs-lg: 20px;
+            --fs-xl: 24px;
+            --fs-xxl:35px;
+            --fs-2xl: 60px;
+        }
+}
+@media (max-width:768px) {
+    :root {
+            /* font-size */
+            --fs-sm: 16px;
+            --fs-md: 18px;
+            --fs-lg: 20px;
+            --fs-xl: 24px;
+            --fs-xxl:29px;
+            --fs-2xl: 60px;
+        }
+}
+@media (max-width:576px) {
+    :root {
+            /* font-size */
+            --fs-sm: 16px;
+            --fs-md: 18px;
+            --fs-lg: 20px;
+            --fs-xl: 15px;
+            --fs-xxl:17px;
+            --fs-2xl: 60px;
+        }
+}

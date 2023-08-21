@@ -1,39 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none !important;
     list-style: none;
+    /* outline: 2px solid red; */
 }
-
 .max_w612 {
     max-width: 612px;
 }
-
+.left_0{
+    left: 0 !important;
+}
 .ff_poppins {
     font-family: 'poppins' 'sans-serif';
 }
-
 @font-face {
     font-family: Recharge;
     src: url("../fonts/recharge\ bd.ttf");
 }
-
 .ff_recharge {
     font-family: 'Recharge';
 }
-
 @font-face {
     font-family: neuropolitical;
     src: url("../fonts/NeuropoliticalRg-Regular-400.ttf");
 }
-
 .ff-neuropolitical {
     font-family: 'neuropolitical';
 }
-
 .learn-more_button {
     background-color: #02cdcf;
     padding: 18px 32px;
@@ -42,30 +38,24 @@
 .max_width_159{
 max-width:159px;
 }
-
 .footer-bg-img {
-    background-image: url("../images/png/bg-img.png");
+    background-image: url("../images/web-p/bg-img\ \(1\).webp");
     background-position: top;
     background-repeat: repeat-x;
     background-color: var(--blue);
 }
-
 .line-height_25 {
     line-height: 25.6px;
 }
-
 .mr_12 {
     margin-right: 12px;
 }
-
 .mb_20 {
     margin-bottom: 20px;
 }
-
 .pt_127 {
     padding-top: 127px;
 }
-
 .line {
     color: white;
     opacity: 75;
@@ -111,7 +101,72 @@ max-width:159px;
 .top_30{
     top: -30%;
 }
-
+.top_67{
+    top: 67%
+    ;
+}
+body,
+html {
+    overflow-x: hidden;
+}
+.timeline{
+    position: relative;
+}
+.timeline::after{
+    content: "";
+    position:absolute;
+    width: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 15px;
+    background-color: #02cdcf;
+}
+.timeline-container{
+    background: inherit;
+    width: 100%;
+    position: relative;
+    padding-left: 60px;
+}
+.timeline-container::after{
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    left: -8px;
+    background-color: white;
+    border: 4px solid #fff;
+    top: 50%;
+    border-radius: 50%;
+    z-index: 1;
+}
+.content{
+    position: relative;
+}
+.mt_110{
+    margin-top: 110px;
+}
+.mt_60{
+    margin-top: 60px;
+}
+.h_550{
+    height: 550px;
+}
+.h_550::-webkit-scrollbar {
+    display: none;
+}
+.pb_100{
+    padding-bottom: 100px;
+}
+.max-width_571{
+   max-width: 571px;
+}
+.top_27{
+    top: -27%;
+}
+.top_20{
+    top: -20%;
+}
 .black_box {
     display: flex;
 /* width: 340px !important;  */
@@ -123,7 +178,10 @@ max-width:159px;
     background: rgba(255, 255, 255, 0.02);
     box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, 0.16) !important;
 }
-
+.slick-track{
+    padding-bottom: 5px;
+    padding-top: 5px !important;
+}
 @media (min-width:992px) {
     .max_width_517 {
         max-width: 517px;
@@ -145,4 +203,16 @@ max-width:159px;
         .max-width_684{
             max-width: 684px;
         }
+                .max-width_474 {
+                    max-width: 474px;
+                }
+        
+                .max-width_460 {
+                    max-width: 460px;
+                }
+}
+@media (max-width:576px) {
+    .right-sm_0{
+     right: 0 !important;
+    }
 }
