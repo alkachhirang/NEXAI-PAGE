@@ -75,14 +75,3 @@
             --fs-2xl: 60px;
         }
 }
-@media (max-width:1440px) {
-    :root {
-            /* font-size */
-            --fs-sm: 16px;
-            --fs-md: 18px;
-            --fs-lg: 20px;
-            --fs-xl: 15px;
-            --fs-xxl:17px;
-            --fs-2xl:52px;
-        }
-}
