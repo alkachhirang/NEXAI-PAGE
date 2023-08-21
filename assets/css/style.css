@@ -105,6 +105,9 @@ max-width:159px;
     top: 67%
     ;
 }
+.mb_50{
+    margin-bottom:70px;
+}
 body,
 html {
     overflow-x: hidden;
@@ -450,6 +453,9 @@ html {
         .bg-lg-black{
             background-color: black !important;
         }
+                .position-fixed-sm{
+                    position: fixed !important;
+                }
 }
 @media (min-width: 992px) {
     .pl-lg-100 {
@@ -499,6 +505,9 @@ html {
     
          .max-width_460 {
              max-width: 460px;
+         }
+         .position-fixed-lg-none{
+            position: none !important;
          }
 }
 @media (max-width:576px) {
