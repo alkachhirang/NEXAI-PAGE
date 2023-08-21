@@ -21,12 +21,6 @@ html {
 .ff-poppins {
   font-family: "poppins", sans-serif;
 }
-.rotate-90 {
-  rotate: 90deg;
-}
-.mr_3 {
-  margin-right: 3px;
-}
 .gap-20 {
   gap: 20px;
 }
@@ -188,9 +182,6 @@ html {
 }
 .pb-68 {
   padding-bottom: 68px;
-}
-.pt-204 {
-  padding-top: 204px;
 }
 .pt-80 {
   padding-top: 80px;
