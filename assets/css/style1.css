@@ -189,7 +189,7 @@ html {
 .mb-100 {
   margin-bottom: 100px;
 }
-.mb-90{
+.mb-90 {
   margin-bottom: 90px;
 }
 .mb-150 {
@@ -241,7 +241,7 @@ html {
     right: 0%;
     z-index: 1 !important;
   }
-  .menu-btn{
+  .menu-btn {
     z-index: 8 !important;
   }
 }
@@ -258,7 +258,7 @@ html {
     padding-right: 100px;
   }
   .bg-image-lg {
-    background-size: 100% 100%;
+    background-size: cover;
   }
   .h-lg-1200 {
     height: 1200px;
