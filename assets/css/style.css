@@ -407,6 +407,9 @@ html {
 .mw-412 {
     max-width: 412px;
 }
+.border-radius_50{
+    border-radius: 50px;
+}
 
 .mw-1340 {
     max-width: 1340px;
