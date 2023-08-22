@@ -108,8 +108,8 @@ max-width:159px;
 .mb_50{
     margin-bottom:70px;
 }
-body,
-html {
+body
+ {
     overflow-x: hidden;
 }
 .timeline{
